@@ -1,0 +1,316 @@
+html, body{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color:#404040;
+	/*background-color:#c0c0c0;*/
+}
+/* ---------- MENU ---------- */
+#menu {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	background-color: #8E44AD;
+}
+#menu ul {
+	margin: 0px;
+	padding: 8px;
+	list-style-type:none;
+	overflow:hidden;
+	vertical-align: middle;
+}
+#menu li {
+	margin: 0px 8px;
+	padding: 0px;
+	float: right;
+	font-family:Trebuchet MS;
+	font-size:16px;
+	font-weight:bold;
+	color: #fff;
+}
+#menu a {
+	width: 100%;
+	padding: 4px;
+	background-color:#AF7AC4;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	-webkit-border-radius: 24px;
+	-moz-border-radius: 24px;
+	border-radius: 24px;
+}
+#menu a:hover{
+	background-color:#612E76;
+}
+/* ---------- MESSAGE ---------- */
+#message{
+	position:absolute;
+	left:50%;
+	top:10%;
+	margin: 0 0 0 -200px;
+	padding: 0px;
+	width: 400px;
+	background-color: #3498DB;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	border-radius: 16px;
+}
+#message h2 {
+	margin: 0px;
+	padding: 4px 20px;
+	background-color: #2980B9;
+	font-family:Trebuchet MS;
+	font-size:16px;
+	font-weight:bold;
+	color: #fff;
+	-webkit-border-radius: 16px 16px 0 0;
+	-moz-border-radius: 16px 16px 0 0;
+	border-radius: 16px 16px 0 0;
+}
+#message p {
+	margin: 0px;
+	padding: 8px 16px 8px 16px;
+	font-family:Trebuchet MS;
+	font-size:14px;
+	font-weight:bold;
+	color: #ECF0F1;
+}
+/* ---------- LOGIN ---------- */
+#login {
+	margin: 100px auto;
+	padding: 0px;
+	width: 350px;
+}
+#login h2 {
+	margin: 0px;
+	padding: 16px;
+	background-color: #8E44AD;
+	font-family:Trebuchet MS;
+	font-size:16px;
+	font-weight:bold;
+	color: #fff;
+	-webkit-border-radius: 16px 16px 0 0;
+	-moz-border-radius: 16px 16px 0 0;
+	border-radius: 16px 16px 0 0;
+}
+#login form{
+	margin: 0px;
+	padding: 4px 16px 16px 16px;
+	background-color: #AF7AC4;
+	-webkit-border-radius: 0 0 16px 16px;
+	-moz-border-radius: 0 0 16px 16px;
+	border-radius: 0 0 16px 16px;
+}
+#login form p {
+	font-family:Trebuchet MS;
+	font-size:14px;
+	font-weight:bold;
+	color: #E4D2EC;
+}
+#login form input, #login form button {
+	font-family:Trebuchet MS;
+	font-size:14px;
+	font-weight:bold;
+	border-width:0px;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	border-radius: 16px;
+}
+#login form input[type="text"], #login form input[type="password"] {
+	background-color: #EAEAEA;
+	color: #4C4C4C;
+	padding: 6px 10px;
+	width: 316px;
+}
+#login form button[type="submit"] {
+	margin: 0 auto;
+	padding: 6px 10px;
+	display: block;
+	background-color: #B33EAF;
+	color: #eee;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	border-radius: 16px;
+}
+#login form button[type="submit"]:hover {
+	background-color: #8E44AD;
+}
+/* ---------- UPLOAD ---------- */
+#upload {
+	margin: 20px auto;
+	text-align: center;
+	width: 600px;
+}
+#upload h2 {
+	margin: 0px;
+	padding: 16px;
+	background-color: #D35400;
+	font-family:Trebuchet MS;
+	font-size:16px;
+	font-weight:bold;
+	color: #fff;
+	-webkit-border-radius:16px 16px 0 0;
+	-moz-border-radius: 16px 16px 0 0;
+	border-radius: 16px 16px 0 0;
+}
+#upload form{
+	background-color: #E67E22;
+	padding:30px;
+	-webkit-border-radius: 0 0 16px 16px;
+	-moz-border-radius: 0 0 16px 16px;
+	border-radius: 0 0 16px 16px;
+}
+#upload  input, #upload  button{
+	font-family:Trebuchet MS;
+	font-size:14px;
+	font-weight:bold;
+	border: none;
+}
+#upload input[type="text"] {
+	width: 420px;
+	padding: 6px 10px;
+	margin-right: 0px;
+	background-color: #EAEAEA;
+	color: #4C4C4C;
+	-webkit-border-radius: 16px 0px 0px 16px;
+	-moz-border-radius: 16px 0px 0px 16px;
+	border-radius: 16px 0px 0px 16px;
+}
+#upload input[type="file"] {
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+#upload button[type="button"]{
+	background-color: #F1C40F;
+	color: #eee;
+	padding: 6px 10px;
+	margin-left: -4px;
+	-webkit-border-radius: 0px 16px 16px 0px;
+	-moz-border-radius: 0px 16px 16px 0px;
+	border-radius: 0px 16px 16px 0px;
+	width: 100px;
+}
+#upload button[type="button"]:hover {
+	background-color: #F39C12;
+}
+#upload p {
+	margin: 8px 0px;
+	padding: 0px;
+	font-family:Trebuchet MS;
+	font-size:14px;
+	font-weight:bold;
+	text-align:left;
+	color: #F1C40F;
+}
+#upload ul{
+	margin: 0px;
+	padding: 0px;
+}
+#upload li{
+	margin: 0px;
+	padding: 0px;
+	font-family:Trebuchet MS;
+	font-size:14px;
+	font-weight:bold;
+	text-align:left;
+	list-style-type:none;
+	color: #4C4C4C;
+}
+#upload button[type="submit"]{
+	background-color: #F1C40F;
+	color: #eee;
+	padding: 6px 10px;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	border-radius: 16px;
+	width: 350px;
+}
+#upload button[type="submit"]:hover {
+	background-color: #F39C12;
+}
+/* ---------- BROWSER ---------- */
+#browser table{
+	margin: 0 auto 40px auto;
+	background-color:#16A085; 
+	border-collapse:collapse;
+	border: none;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+#browser table thead th{
+	margin: 0px;
+	padding: 8px;
+	height: 24px;
+	background-color:#16A085; 
+	font-family:Trebuchet MS;
+	font-size:16px;
+	font-weight:bold;
+	color: #fff;
+}
+#browser table thead th:first-child{
+	border-radius: 8px 0 0 0;
+}
+#browser table thead th:last-child{
+	border-radius: 0 8px 0 0;
+}
+#browser table tbody tr{
+	/*border: 1px solid #1ABC9C;*
+	border-width:0px 0px 2px 0px;*/
+	font-family:Trebuchet MS;
+	font-size: 12px;
+	font-weight:normal;
+	color: #404040;
+
+}
+#browser table tbody tr:nth-child(odd){
+	background-color:#7ECFA0;
+}
+#browser table tbody tr:nth-child(even){ 
+	background-color:#52BE7F; 
+}
+#browser table tbody tr:last-child{
+	border: none;
+}
+#browser table tbody tr:last-child td:first-child{
+	border-radius: 0 0 0 8px;
+}
+#browser table tbody tr:last-child td:last-child{
+	border-radius: 0 0 8px 0 ;
+}
+#browser table tbody tr:hover {
+	background-color:#27AE60; 
+	color: #fff;
+}
+#browser table tbody tr td{
+	padding: 4px;
+	text-align: center;
+}
+#browser a.button {
+	width: 16px;
+	height: 16px;
+	margin: 2px;
+	padding: 2px;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	-webkit-border-radius: 24px;
+	-moz-border-radius: 24px;
+	border-radius: 24px;
+}
+#browser a.button.download{
+	background-color: #10725F;
+}
+#browser a.button.download:hover {
+	background-color: #4DCA7E;
+}
+#browser a.button.delete{
+background-color: #C0392B;
+}
+#browser a.button.delete:hover {
+	background-color: #E74C3C;
+}
